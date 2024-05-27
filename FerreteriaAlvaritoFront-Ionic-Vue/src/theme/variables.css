@@ -1,0 +1,57 @@
+
+.register-section {
+  height: 74vh;
+  width: 100%;
+  max-width: 500px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  position: static;
+  margin: auto;
+  border-top-left-radius: 46%;
+  border-top-right-radius: 46;
+}
+
+.alert-resultados {
+  width: 40%;
+  height: 24px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  border-radius: 5px;
+}
+.product-image {
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+  border-radius: 5px;
+  display: block;
+  /* Asegura que la imagen se comporte como un bloque */
+  margin: auto;
+}
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 100%;
+  max-height: 150vh;
+  overflow-y: auto;
+}
+.large-button {
+  flex: 1;
+  margin: 5px;
+  height: 50px;
+  font-size: 1.2rem;
+}
+
+ion-app {
+  --ion-background-color: #F1BE1B;
+}
+
+
+
+
